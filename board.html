@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang=en-US>
+<head>
+    <h1> Message Board </h1>
+  </head>
+  <link rel="stylesheet" href="styles.css">
+ <p>
+    <form method="post" action="post.php">
+      Message Here: <textarea name="message" rows="5" cols="25" placeholder="Type your message here"></textarea><br>
+      <label for="post-time">Choose a time for your post:</label>
+      <input type="datetime-local" id="post-time"
+       name="post-time" value="Today"
+       min="2021-01-30T00:00" max="2050-01-01T00:00">
+      <input text = "Post" type="submit">
+    </form>
+    <br><br>
+  </p>
+</html>

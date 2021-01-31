@@ -1,0 +1,72 @@
+html 
+{
+ overflow: auto;
+}
+ 
+
+
+
+h1 {
+  color: navy;
+  background-color: gray;
+  text-align: center;
+  border-style: solid;
+  border-color: navy;
+  border-width: 5px 5px;
+  border-radius: 10px;
+  font-family:helvetica;
+}
+p1{
+  background-color: #262626;
+  color:#262626;
+}
+iframe 
+{
+ display: block; 
+ width: 100%; 
+ border: none; 
+ overflow-y: auto; 
+ overflow-x: hidden;
+}
+button{
+  border:none;
+color: navy;
+background-color: grey;
+text-align: center;
+font-size: 25px;
+}
+
+button:hover{
+  color:blue;
+    background-color: rgb(99, 99, 99);
+}
+
+
+txtbox {
+  
+  font-size: 25px;
+  text-align: left;
+  color: whitesmoke;
+  
+  font-family:helvetica;
+
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 5px 5px;
+  border-radius: 10px;
+  height: 40px;
+}
+body{
+  color:black;
+}
+submit{
+border:none;
+color: navy;
+background-color: grey;
+text-align: center;
+font-size: 25px;
+}
